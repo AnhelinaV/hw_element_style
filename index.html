@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Homework</title>
+</head>
+
+<body>
+  <div class="element">
+    <h1>Element style</h1>
+    <div class="field">
+      <label>Background color:</label>
+      <input id="background-color" type="color" list="colors" value="#ffffff">
+    </div>
+    <div class="field">
+      <label>Border radius (%):</label>
+      <input id="border-radius" type="number">
+    </div>
+    <div class="field">
+      <label>Element width (px):</label>
+      <input id="element-width" type="number">
+    </div>
+    <div class="field">
+      <label>Element height (px):</label>
+      <input id="element-height" type="number">
+    </div>
+    <button id="show-result" onclick="showResult()">Result</button>
+  </div>
+
+  <div id="result"></div>
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,44 @@
+#result {
+  border: 5px solid blanchedalmond;
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+}
+
+#show-result {
+  width: 100px;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: bisque;
+}
+
+.field {
+  margin: 8px;
+}
+
+.element {
+  width: 350px;
+  height: 100%;
+  padding: 5px;
+  border: 3px solid blanchedalmond;
+  margin: 15px;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+}
+
+#background-color {
+  width: 170px;
+}
+
+button {
+  border: 1px solid;
+  cursor: pointer;
+}
+
+#show-result:hover {
+  background-color: rgb(251, 214, 176);
+  transition: 0.5s;
+}
